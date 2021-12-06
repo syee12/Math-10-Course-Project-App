@@ -20,7 +20,7 @@ import altair as alt
 
 st.subheader("Introducing the Data")
 
-df = pd.read_csv(r'C:\Users\yeesa\Desktop\Desktop\nba21season.csv')
+df = pd.read_csv(r'nba21season.csv')
 df = df.replace(" ", np.nan)
 columns = list(df.columns)
 "Below is our dataset from nba.stuffer.com ([linked](https://www.nbastuffer.com/2020-2021-nba-player-stats/) above as well) corresponding to the 2020-2021 NBA Regular Season"
