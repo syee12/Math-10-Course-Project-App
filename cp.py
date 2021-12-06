@@ -884,7 +884,7 @@ st.markdown("""---""")
 st.subheader("Topic 5: Clustering Data")
 "> **Goal**: For the last topic, I wanted to explore the dataset some more using a Kmeans algorithm. Specifically, I wanted to explore more about players' statistics regarding Games Played and Minutes Per Game."
 
-df = pd.read_csv(r'C:\Users\yeesa\Math_10_Files_Spyder\nba_21_season.csv')
+df = pd.read_csv("nba21season.csv")
 df = df.replace(" ", np.nan)
 df = df.fillna(0)
 df = df.drop(columns = ['RANK', 'VI (Versatility Index)', 'ORTG (Offensive Rating)', 'DRTG (Defensive Rating)'])
