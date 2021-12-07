@@ -5,7 +5,7 @@ st.title("Math 10: Course Project")
 st.markdown("Name: Sarah Yee")
 st.markdown("UCI ID(s): 80797166")
 st.write("Source: [DATASET LINK](https://www.nbastuffer.com/2020-2021-nba-player-stats/)")
-st.write("[Course Project Github](https://github.com/syee12/Math-10-Course-Project)")
+st.write("[Course Project Github](https://github.com/syee12/Math-10-Course-Project-App)")
 
 #My Strategy & Thought Process
 st.subheader("My Strategy & Thought Process")
